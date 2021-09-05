@@ -37,6 +37,7 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - App의 Not running, Inactive, Active, Background, Suspended에 대해 설명하시오.
 ###
 - NSOperationQueue 와 GCD Queue 의 차이점을 설명하시오.
+- -->GCD 큐와 다르게 NSOperation은 작업을 취소하거나 현재 상태를 질의할 수 있습니다. 또한 NSOperation을 상속하여 나중에 다른곳에서 참조가능하도록 결과들을 보관하는것이 가능합니다.
 - GCD API 동작 방식과 필요성에 대해 설명하시오.
 - Global DispatchQueue 의 Qos 에는 어떤 종류가 있는지, 각각 어떤 의미인지 설명하시오.
 ###
